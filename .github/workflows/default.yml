@@ -3,7 +3,6 @@ name: test action trigger
 on:   
   push:
     branches:
-      - master
       - 'releases/**'
 jobs:
   my-job:
