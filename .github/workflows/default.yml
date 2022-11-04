@@ -1,6 +1,9 @@
 name: test action trigger
 
-on: [push]
+on:
+  push:
+    branches:
+      - 'releases/**'
 jobs:
   my-job:
     runs-on: ubuntu-latest
