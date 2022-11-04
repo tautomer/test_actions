@@ -3,7 +3,7 @@ name: test action trigger
 on:   
   push:
     branches:
-      - test
+      - master
 jobs:
   my-job:
     runs-on: ubuntu-latest
